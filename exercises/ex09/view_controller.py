@@ -54,3 +54,5 @@ class ViewController:
             if next_tick < 0:
                 next_tick = 0
             self.screen.ontimer(self.tick, next_tick)
+
+            
